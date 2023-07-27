@@ -65,9 +65,11 @@ Automatic Video Object Segmentation (AVOS), often called primary object segmenta
 - **[TMO]** Treating motion as option to reduce motion dependency in unsupervised video object segmentation. *WACV 2023*, [Paper](https://openaccess.thecvf.com/content/WACV2023/papers/Cho_Treating_Motion_as_Option_To_Reduce_Motion_Dependency_in_Unsupervised_WACV_2023_paper.pdf)
 - **[HFAN]** Hierarchical feature alignment network for unsupervised video object segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136940584.pdf), [Code](https://github.com/NUST-Machine-Intelligence-Laboratory/HFAN)
 - **[IMP]** Iteratively selecting an easy reference frame makes unsupervised video object segmentation easier. *AAAI 2022*, [Paper](https://arxiv.org/abs/2112.12402)
-- **[COSNet]** See more,know more: Unsupervised video object segmentation with co-attention Siamese networks. *CVPR 2019*, [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lu_See_More_Know_More_Unsupervised_Video_Object_Segmentation_With_Co-Attention_CVPR_2019_paper.pdf), [Code](https://github.com/carrierlxk/COSNet)
 - **[RTNet]** Reciprocal transformations for unsupervised video object segmentation. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ren_Reciprocal_Transformations_for_Unsupervised_Video_Object_Segmentation_CVPR_2021_paper.pdf), [Code](https://github.com/OliverRensu/RTNet)
 - **[MATNet]** Motionattentive transition for zero-shot video object segmentation. *AAAI 2020*, [Paper](https://arxiv.org/pdf/2003.04253.pdf), [Code](https://github.com/tfzhou/MATNet)
+- **[COSNet]** See more,know more: Unsupervised video object segmentation with co-attention Siamese networks. *CVPR 2019*, [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lu_See_More_Know_More_Unsupervised_Video_Object_Segmentation_With_Co-Attention_CVPR_2019_paper.pdf), [Code](https://github.com/carrierlxk/COSNet)
+
+
 
 ## Semi Automatic Video Object Segmentation (SVOS)
 
