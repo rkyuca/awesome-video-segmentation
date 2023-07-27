@@ -12,7 +12,7 @@ A list of recent papers on different types of video segmentation tasks.
 
 
 ## Contents
-> 0\. [Introduction](#Introduction)
+> 0\. [Tasks and Datasets](#Tasks-and-Datasets)
 >
 > 1\. [Automatic Video Object Segmentation (AVOS)](#Automatic-Video-Object-Segmentation-(AVOS))
 >
@@ -37,21 +37,21 @@ A list of recent papers on different types of video segmentation tasks.
 > 11\. [Audio-referring Video Object Segmentation](#)
 
 
-## Introduction
+## Tasks and Datasets
 
-| Category                    | Task                                                        | Target                                | Instances  | Tracking   | Datasets                                                                                                                                             |
-|-----------------------------|-------------------------------------------------------------|---------------------------------------|------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \multirow{4}{*}{Objects}    | Automatic Video Object Segmentation (AVOS)                  | Primary moving object                 | -          | -          | DAVIS'2016~\cite{perazzi2016benchmark}, MoCA~\cite{lamdouar2020betrayed}, YouTube-VOS~\cite{xu2018youtube}, YouTube-Objects~\cite{prest2012learning} |
-|                             | Semi-automatic VOS (SVOS)                                   | Mask-guided object                    | -          | -          | DAVIS'2017~\cite{pont20172017,caelles20182018}                                                                                                       |
-|                             | Interactive VOS (IVOS)                                      | Scribble-guided object                | -          | -          | DAVIS'2017~\cite{pont20172017,caelles20182018}                                                                                                       |
-|                             | Video Instance Segmentation (VIS)                           | All Objects                           | \checkmark | \checkmark | YouTube-VIS~\cite{yang2019video}, OVIS~\cite{qi2022occluded}                                                                                         |
-| Actor-action                | Actor-action segmentation                                   | Primary Object related to actions     | -          | -          | A2D~\cite{xu2015can}                                                                                                                                 |
-| \multirow{4}{*}{Scene}      | Video Semantic Segmentation/ Video Scene Parsing (VSS/ VSP) | All thing and stuff classes           | -          | -          | VIPER~\cite{richter2017playing}, VSPW~\cite{miao2021vspw}                                                                                            |
-|                             | Video Panoptic Segmentation (VPS)                           | All thing and stuff classes           | \checkmark | \checkmark | Cityscapes-VPS~\cite{kim2020video}, VIPER~\cite{richter2017playing}, VIPSeg~\cite{miao2022large}                                                     |
-|                             | Depth-aware Video Panoptic Segmentation (DVPS)              | All thing and stuff classes and depth | \checkmark | \checkmark | Cityscapes-DVPS~\cite{qiao2021vip}, SemanticKITTI-DVPS~\cite{qiao2021vip}                                                                            |
-|                             | Panoramic Video Panoptic Segmentation (PVPS)                | All thing and stuff classes           | \checkmark | \checkmark | WOD:PVPS~\cite{mei2022waymo}                                                                                                                         |
-| \multirow{2}{*}{Multimodal} | Text guided VOS/Referring-VOS (RVOS)                        | Text reference guided object          | -          | -          | A2D-Sentence~\cite{gavrilyuk2018actor}, RE-DAVIS~\cite{khoreva2019video}, RVOS~\cite{seo2020urvos}                                                   |
-|                             | Audio Guided VOS (AGVOS)                                    | Audio reference guided object         | -          | -          | AVOS~\cite{pan2022wnet}                                                                                                                              |
+| Task Category               | Task                                                        | Target                                | Instances  | Tracking   | Datasets                                       |
+|-----------------------------|-------------------------------------------------------------|---------------------------------------|------------|------------|------------------------------------------------|
+|           Objects           | Automatic Video Object Segmentation (AVOS)                  | Primary moving object                 | -          | -          | DAVIS 2016, MoCA, YouTube-VOS, YouTube-Objects |
+|                             | Semi-automatic VOS (SVOS)                                   | Mask-guided object                    | -          | -          | DAVIS'2017                                     |
+|                             | Interactive VOS (IVOS)                                      | Scribble-guided object                | -          | -          | DAVIS'2017                                     |
+|                             | Video Instance Segmentation (VIS)                           | All Objects                           | \checkmark | \checkmark | YouTube-VIS, OVIS                              |
+|         Actor-action        | Actor-action segmentation                                   | Primary Object related to actions     | -          | -          | A2D                                            |
+|             Scene           | Video Semantic Segmentation/ Video Scene Parsing (VSS/ VSP) | All thing and stuff classes           | -          | -          | VIPER, VSPW                                    |
+|                             | Video Panoptic Segmentation (VPS)                           | All thing and stuff classes           | \checkmark | \checkmark | Cityscapes-VPS, VIPER, VIPSeg                  |
+|                             | Depth-aware Video Panoptic Segmentation (DVPS)              | All thing and stuff classes and depth | \checkmark | \checkmark | Cityscapes-DVPS, SemanticKITTI-DVPS            |
+|                             | Panoramic Video Panoptic Segmentation (PVPS)                | All thing and stuff classes           | \checkmark | \checkmark | WOD:PVPS                                       |
+|            Multimodal       | Text guided VOS/Referring-VOS (RVOS)                        | Text reference guided object          | -          | -          | A2D-Sentence, RE-DAVIS, RVOS                   |
+|                             | Audio Guided VOS (AGVOS)                                    | Audio reference guided object         | -          | -          | AVOS                                           |
 
 
 
