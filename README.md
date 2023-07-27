@@ -5,7 +5,15 @@ A list of recent papers on different types of video segmentation tasks.
 
 
 
+
+
+
+
+
+
 ## Contents
+> 0\. [Introduction](#Introduction)
+>
 > 1\. [Automatic Video Object Segmentation (AVOS)](#Automatic-Video-Object-Segmentation-(AVOS))
 >
 > 2\. [Semi Automatic Video Object Segmentation (SVOS)](#Semi-Automatic-Video-Object-Segmentation-(SVOS))
@@ -24,13 +32,33 @@ A list of recent papers on different types of video segmentation tasks.
 >
 > 9\. [Panoramic Video Panoptic Segmentation (PVPS)](#)
 >
-> 9\. [Text-referring Video Object Segmentation (RVOS)](#)
+> 10\. [Text-referring Video Object Segmentation (RVOS)](#)
 >
-> 9\. [Audio-referring Video Object Segmentation](#)
+> 11\. [Audio-referring Video Object Segmentation](#)
+
+
+## Introduction
+
+| Category                    | Task                                                        | Target                                | Instances  | Tracking   | Datasets                                                                                                                                             |
+|-----------------------------|-------------------------------------------------------------|---------------------------------------|------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| \multirow{4}{*}{Objects}    | Automatic Video Object Segmentation (AVOS)                  | Primary moving object                 | -          | -          | DAVIS'2016~\cite{perazzi2016benchmark}, MoCA~\cite{lamdouar2020betrayed}, YouTube-VOS~\cite{xu2018youtube}, YouTube-Objects~\cite{prest2012learning} |
+|                             | Semi-automatic VOS (SVOS)                                   | Mask-guided object                    | -          | -          | DAVIS'2017~\cite{pont20172017,caelles20182018}                                                                                                       |
+|                             | Interactive VOS (IVOS)                                      | Scribble-guided object                | -          | -          | DAVIS'2017~\cite{pont20172017,caelles20182018}                                                                                                       |
+|                             | Video Instance Segmentation (VIS)                           | All Objects                           | \checkmark | \checkmark | YouTube-VIS~\cite{yang2019video}, OVIS~\cite{qi2022occluded}                                                                                         |
+| Actor-action                | Actor-action segmentation                                   | Primary Object related to actions     | -          | -          | A2D~\cite{xu2015can}                                                                                                                                 |
+| \multirow{4}{*}{Scene}      | Video Semantic Segmentation/ Video Scene Parsing (VSS/ VSP) | All thing and stuff classes           | -          | -          | VIPER~\cite{richter2017playing}, VSPW~\cite{miao2021vspw}                                                                                            |
+|                             | Video Panoptic Segmentation (VPS)                           | All thing and stuff classes           | \checkmark | \checkmark | Cityscapes-VPS~\cite{kim2020video}, VIPER~\cite{richter2017playing}, VIPSeg~\cite{miao2022large}                                                     |
+|                             | Depth-aware Video Panoptic Segmentation (DVPS)              | All thing and stuff classes and depth | \checkmark | \checkmark | Cityscapes-DVPS~\cite{qiao2021vip}, SemanticKITTI-DVPS~\cite{qiao2021vip}                                                                            |
+|                             | Panoramic Video Panoptic Segmentation (PVPS)                | All thing and stuff classes           | \checkmark | \checkmark | WOD:PVPS~\cite{mei2022waymo}                                                                                                                         |
+| \multirow{2}{*}{Multimodal} | Text guided VOS/Referring-VOS (RVOS)                        | Text reference guided object          | -          | -          | A2D-Sentence~\cite{gavrilyuk2018actor}, RE-DAVIS~\cite{khoreva2019video}, RVOS~\cite{seo2020urvos}                                                   |
+|                             | Audio Guided VOS (AGVOS)                                    | Audio reference guided object         | -          | -          | AVOS~\cite{pan2022wnet}                                                                                                                              |
+
+
+
 
 
 ## Automatic Video Object Segmentation (AVOS)
-Automatic Video Object Segmentation (AVOS), often called primary object segmentation, is defined as grouping pixels into foreground object masks representing the primary object in a video sequence, where primary is distinguished as the object showing dominant motion or distinguishing appearances across the frames. For this reason, AVOS often has been termed foreground/background segmentation since an object with distinctive motion and/or appearance properties in a video sequence is generally the foreground object. Since no prior information is available, this kind of segmentation also is called unsupervised VOS or zero-shot VOS. In addition to the challenges common to most video segmentation task that were listed above, AVOS also faces the challenges of lack of prior information regarding the objects of interest.
+Automatic Video Object Segmentation (AVOS), often called primary object segmentation, is defined as grouping pixels into foreground object masks representing the primary object in a video sequence, where primary is distinguished as the object showing dominant motion or distinguishing appearances across the frames. For this reason, AVOS often has been termed foreground/background segmentation since an object with distinctive motion and/or appearance properties in a video sequence is generally the foreground object. Since no prior information is available, this kind of segmentation also is called unsupervised VOS or zero-shot VOS. In addition to the challenges common to most video segmentation task that were listed above, AVOS also faces the challenges of lack of prior information regarding the objects of interest. Some of the recent approaches to AVOS are listed below. 
 
 - **[MED-VT]** MED-VT: Multiscale encoder-decoder video transformer with application to object segmentation. *CVPR 2023* [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Karim_MED-VT_Multiscale_Encoder-Decoder_Video_Transformer_With_Application_To_Object_Segmentation_CVPR_2023_paper.pdf) [Code](https://rkyuca.github.io/medvt/)
 - **[PMN]** Unsupervised video object segmentation via prototype memory network. *WACV 2023*, [Paper](https://openaccess.thecvf.com/content/WACV2023/papers/Lee_Unsupervised_Video_Object_Segmentation_via_Prototype_Memory_Network_WACV_2023_paper.pdf)
