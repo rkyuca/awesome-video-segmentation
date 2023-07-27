@@ -14,27 +14,27 @@ A list of recent papers on different types of video segmentation tasks.
 ## Contents
 > 0\. [Tasks and Datasets](#Tasks-and-Datasets)
 >
-> 1\. [Automatic Video Object Segmentation (AVOS)](#Automatic-Video-Object-Segmentation-(AVOS))
+> 1\. [Automatic Video Object Segmentation](#Automatic-Video-Object-Segmentation)
 >
-> 2\. [Semi Automatic Video Object Segmentation (SVOS)](#Semi-Automatic-Video-Object-Segmentation-(SVOS))
+> 2\. [Semi Automatic Video Object Segmentation](#Semi-Automatic-Video-Object-Segmentation)
 >
-> 3\. [Interactive Video Object Segmentation (IVOS)](#)
+> 3\. [Interactive Video Object Segmentation](#Interactive-Video-Object-Segmentation)
 >
-> 4\. [Video Instance Segmentation (VIS)](#)
+> 4\. [Video Instance Segmentation](#Video-Instance-Segmentation)
 >
-> 5\. [Actor-Action Segmentation](#)
+> 5\. [Actor Action Segmentation](#[Actor-Action-Segmentation)
 >
-> 6\. [Video Semantic Segmentation (VSS)](#)
+> 6\. [Video Semantic Segmentation](#Video-Semantic-Segmentation)
 >
-> 7\. [Video Panoptic Segmentation (VPS)](#)
+> 7\. [Video Panoptic Segmentation](#Video-Panoptic-Segmentation)
 >
-> 8\. [Depthaware Video Panoptic Segmentation (DVPS)](#)
+> 8\. [Depthaware Video Panoptic Segmentation](#Depthaware-Video-Panoptic-Segmentation)
 >
-> 9\. [Panoramic Video Panoptic Segmentation (PVPS)](#)
+> 9\. [Panoramic Video Panoptic Segmentation](#Panoramic-Video-Panoptic-Segmentation)
 >
-> 10\. [Text-referring Video Object Segmentation (RVOS)](#)
+> 10\. [Text Referring Video Object Segmentation](#Text-Referring-Video-Object-Segmentation)
 >
-> 11\. [Audio-referring Video Object Segmentation](#)
+> 11\. [Audio Referring Video Object Segmentation](#Audio-Referring-Video-Object-Segmentation)
 
 
 ## Tasks and Datasets
@@ -50,8 +50,8 @@ A list of recent papers on different types of video segmentation tasks.
 |                             | Video Panoptic Segmentation (VPS)                           | All thing and stuff classes           | :heavy_check_mark: | :heavy_check_mark: | Cityscapes-VPS, VIPER, VIPSeg                  |
 |                             | Depth-aware Video Panoptic Segmentation (DVPS)              | All thing and stuff classes and depth | :heavy_check_mark: | :heavy_check_mark: | Cityscapes-DVPS, SemanticKITTI-DVPS            |
 |                             | Panoramic Video Panoptic Segmentation (PVPS)                | All thing and stuff classes           | :heavy_check_mark: | :heavy_check_mark: | WOD:PVPS                                       |
-|            Multimodal       | Text guided VOS/Referring-VOS (RVOS)                        | Text reference guided object          | -                  | -                  | A2D-Sentence, RE-DAVIS, RVOS                   |
-|                             | Audio Guided VOS (AGVOS)                                    | Audio reference guided object         | -                  | -                  | AVOS                                           |
+|            Multimodal       | Text Referring VOS/Referring-VOS (RVOS)                     | Text reference guided object          | -                  | -                  | A2D-Sentence, RE-DAVIS, RVOS                   |
+|                             | Audio Referring VOS (ARVOS)                                 | Audio reference guided object         | -                  | -                  | AVOS                                           |
 
 
 
