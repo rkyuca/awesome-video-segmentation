@@ -93,10 +93,62 @@ A list of recent papers on different types of video segmentation tasks.
 ## Video Instance Segmentation
 
 
-## Actor Action Segmentation
+| Methods             | Transformer-based  | YouTube-VIS-2019   | YouTube-VIS-2021 | OVIS     | UVO      |
+|---------------------|--------------------|--------------------|------------------|----------|----------|
+| CrossVIS            |       \-           |   36.6             |  34.2            | 14.9     | \-       |
+| VisTR               |                    |   40.1             | \-               | \-       | \-       |
+| IFC                 |                    |   42.6             | 35.2             | \-       | \-       |
+| Seq Mask R-CNN      |              \-    |   47.6             | \-               | \-       | \-       |
+| EfficientVIS        |                    |   39.8             | \-               | \-       | \-       |
+| TeViT               |                    |   46.6             | 37.9             | 17.4     | \-       |
+| SeqFormer           |                    |   59.3             | \-               | \-       | \-       |
+| TubeFormer-DeepLab  |                    |   47.5             | 41.2             | \-       | \-       |
+| Video K-Net         |                    |   51.4             | \-               | \-       | \-       |
+| FreeSOLO            |          \-        |     \-             | \-               | \-       | 4.8      |
+| IDOL                |                    |    62.2            | 56.1             | 42.6     | \-       |
+| VMT                 |                    |    59.7            | \-               | 19.8     | \-       |
+| MS-STS VIS          |                    |    61.0            | \-               | \-       | \-       |
+| InstMove            |                    |     \-             | \-               | 30.7     | \-       |
+| GenVIS              |                    |   **64.0**         | **59.6**         | **45.4** | \-       |
+| CAROQ               |                    |     61.4           | 54.5             | 38.2     | \-       |
+| CutLER              |                    |       \-           | \-               | \-       | **10.1** |
 
+
+- **[CutLER]** Cut and learn for unsupervised object detection and instance segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Cut_and_Learn_for_Unsupervised_Object_Detection_and_Instance_Segmentation_CVPR_2023_paper.pdf), [Code](https://github.com/facebookresearch/CutLER)
+- **[CAROQ]** Context-aware relative object queries to unify video instance and panoptic segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Choudhuri_Context-Aware_Relative_Object_Queries_To_Unify_Video_Instance_and_Panoptic_CVPR_2023_paper.pdf), [Code](https://github.com/AnwesaChoudhuri/CAROQ)
+- **[GenVIS]** A generalized framework for video instance segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Heo_A_Generalized_Framework_for_Video_Instance_Segmentation_CVPR_2023_paper.pdf), [Code](https://github.com/miranheo/GenVIS)
+- **[InstMove]** InstMove: Instance motion for object-centric video segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_InstMove_Instance_Motion_for_Object-Centric_Video_Segmentation_CVPR_2023_paper.pdf), [Code](https://github.com/wjf5203/VNext)
+- **[MS-STS VIS]** Video instance segmentation via multi-scale spatio-temporal split attention transformer. *ECCV 2022*, [Paper](https://arxiv.org/pdf/2203.13253.pdf), [Code](https://github.com/OmkarThawakar/MSSTS-VIS)
+- **[VMT]** Video mask transfiner for high-quality video instance segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880721.pdf), [Code](https://github.com/SysCV/vmt)
+- **[IDOL]** In defense of online models for video instance segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880582.pdf), [Code](https://github.com/wjf5203/VNext)
+- **[FreeSOLO ]** FreeSOLO: Learning to segment objects without annotations. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_FreeSOLO_Learning_To_Segment_Objects_Without_Annotations_CVPR_2022_paper.pdf), [Code](https://github.com/NVlabs/FreeSOLO)
+- **[Video K-Net]** Video K-Net: A simple, strong, and unified baseline for video segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Video_K-Net_A_Simple_Strong_and_Unified_Baseline_for_Video_CVPR_2022_paper.pdf), [Code](https://github.com/lxtGH/Video-K-Net)
+- **[TubeFormer-DeepLab]** TubeFormer-DeepLab: Video mask transformer. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TubeFormer-DeepLab_Video_Mask_Transformer_CVPR_2022_paper.pdf), [Code]() 
+- **[SeqFormer]** SeqFormer: Sequential transformer for video instance segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880547.pdf), [Code](https://github.com/wjf5203/SeqFormer) 
+- **[TeViT]** Temporally efficient vision transformer for video instance segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Temporally_Efficient_Vision_Transformer_for_Video_Instance_Segmentation_CVPR_2022_paper.pdf), [Code](https://github.com/hustvl/TeViT)
+- **[EfficientVIS]** Efficient video instance segmentation via tracklet query and proposal. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Efficient_Video_Instance_Segmentation_via_Tracklet_Query_and_Proposal_CVPR_2022_paper.pdf), [Code]()
+- **[Seq Mask R-CNN]** Video instance segmentation with a propose-reduce paradigm. *ICCV 2021*, [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Video_Instance_Segmentation_With_a_Propose-Reduce_Paradigm_ICCV_2021_paper.pdf), [Code](https://github.com/dvlab-research/ProposeReduce)
+- **[IFC]** Video instance segmentation using inter-frame communication transformers. *NeurIPS 2021*, [Paper](https://proceedings.neurips.cc/paper/2021/file/6f2688a5fce7d48c8d19762b88c32c3b-Paper.pdf), [Code](https://github.com/sukjunhwang/IFC)
+- **[VisTR]**  End-to-end video instance segmentation with transformers. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_End-to-End_Video_Instance_Segmentation_With_Transformers_CVPR_2021_paper.pdf), [Code](https://github.com/Epiphqny/VisTR)
+- **[CrossVIS]** Crossover learning for fast online video instance segmentation. *ICCV 2021*, [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Crossover_Learning_for_Fast_Online_Video_Instance_Segmentation_ICCV_2021_paper.pdf), [Code](https://github.com/hustvl/CrossVIS) 
+
+
+## Actor Action Segmentation
+ | Methods     | Transformer-based | A2D      |
+ |-------------|-------------------|----------|
+ | Ji et al.   | -                 | 36.9     |   
+ | Dang et al. | -                 | 38.6     |  
+ | SSA2D       | -                 | 39.5     | 
+ | MED-VT      |                   | **52.6** |
+
+
+- **[MED-VT]** MED-VT: Multiscale encoder-decoder video transformer with application to object segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Karim_MED-VT_Multiscale_Encoder-Decoder_Video_Transformer_With_Application_To_Object_Segmentation_CVPR_2023_paper.pdf) [Code](https://rkyuca.github.io/medvt/)
+- **[SSA2D]** We don’t need thousand proposals: Single shot actor action detection in videos. *WACV 2021 *, [Paper](https://openaccess.thecvf.com/content/WACV2021/papers/Rana_We_Dont_Need_Thousand_Proposals_Single_Shot_Actor-Action_Detection_in_WACV_2021_paper.pdf), [Code](https://github.com/aayushjr/ssa2d)
+- **[Dang et al.]** Actor-action semantic segmentation with region masks. *BMVC 2018*, [Paper](https://arxiv.org/pdf/1807.08430.pdf), [Code]()
+- **[Ji et al.]** End-to-end joint semantic segmentation of actors and actions in video. *ECCV 2018 *, [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jingwei_Ji_End-to-End_Joint_Semantic_ECCV_2018_paper.pdf), [Code](https://github.com/JingweiJ/JointActorActionSeg)
 
 ## Video Semantic Segmentation
+- **[]** . * *, [Paper](), [Code]()
 
 
 ## Video Panoptic Segmentation
