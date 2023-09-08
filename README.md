@@ -1,10 +1,16 @@
-# awesome-video-segmentation
-Awesome Video Segmentation: Recent progress in video segmentation. 
+# Awesome Video Segmentation
 
-A list of recent papers on different types of video segmentation tasks.  
+A list of some recent papers on different types of video segmentation tasks.  
 
+### Updates
 
-
+- [x] Tasks and datasets
+- [x] Recent papers list
+  - [x] List of papers
+  - [x] Links to papers and codes
+- [ ] SOTA result tables on various datasets
+- [ ] Discussion on recent trends
+- [ ] Potential future directions
 
 
 
@@ -148,23 +154,48 @@ A list of recent papers on different types of video segmentation tasks.
 - **[Ji et al.]** End-to-end joint semantic segmentation of actors and actions in video. *ECCV 2018 *, [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jingwei_Ji_End-to-End_Joint_Semantic_ECCV_2018_paper.pdf), [Code](https://github.com/JingweiJ/JointActorActionSeg)
 
 ## Video Semantic Segmentation
-- **[]** . * *, [Paper](), [Code]()
+
+
+- **[TubeFormer-DeepLab]** TubeFormer-DeepLab: Video mask transformer. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TubeFormer-DeepLab_Video_Mask_Transformer_CVPR_2022_paper.pdf), [Code]() 
+- **[CFFM]** Coarse-to-fine feature mining for video semantic segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Coarse-To-Fine_Feature_Mining_for_Video_Semantic_Segmentation_CVPR_2022_paper.pdf), [Code](https://github.com/GuoleiSun/VSS-CFFM)
+- **[Video K-Net]** Video K-Net: A simple, strong, and unified baseline for video segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Video_K-Net_A_Simple_Strong_and_Unified_Baseline_for_Video_CVPR_2022_paper.pdf), [Code](https://github.com/lxtGH/Video-K-Net)
+- **[SegFormer]** SegFormer: Simple and efficient design for semantic segmentation with transformers. *NeurIPS 2021*, [Paper](https://proceedings.neurips.cc/paper/2021/file/64f1f27bf1b4ec22924fd0acb550c235-Paper.pdf), [Code](https://github.com/NVlabs/SegFormer)
+- **[TCB]** VSPW: A large-scale dataset for video scene parsing in the wild. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Miao_VSPW_A_Large-scale_Dataset_for_Video_Scene_Parsing_in_the_CVPR_2021_paper.pdf), [Code](https://github.com/VSPW-dataset/VSPW_code)
+- **[STT]** Video semantic segmentation via sparse temporal transformer. *MM 2021*, [Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475409), [Code]()
+- **[TMANet]** Temporal memory attention for video semantic segmentation. * *, [Paper](https://arxiv.org/abs/2102.08643), [Code](https://github.com/wanghao9610/TMANet)
 
 
 ## Video Panoptic Segmentation
 
 
+- **[CAROQ]** Context-aware relative object queries to unify video instance and panoptic segmentation. *CVPR 2023*, [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Choudhuri_Context-Aware_Relative_Object_Queries_To_Unify_Video_Instance_and_Panoptic_CVPR_2023_paper.pdf), [Code](https://github.com/AnwesaChoudhuri/CAROQ)
+- **[Slot-VPS]** Slot-VPS: Object-centric representation learning for video panoptic segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Slot-VPS_Object-Centric_Representation_Learning_for_Video_Panoptic_Segmentation_CVPR_2022_paper.pdf), [Code](https://github.com/SAITPublic/SlotVPS)
+- **[TubeFormer-DeepLab]** TubeFormer-DeepLab: Video mask transformer. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TubeFormer-DeepLab_Video_Mask_Transformer_CVPR_2022_paper.pdf), [Code]() 
+- **[ViP-Deeplab]** ViP-DeepLab: Learning visual perception with depth-aware video panoptic segmentation. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_VIP-DeepLab_Learning_Visual_Perception_With_Depth-Aware_Video_Panoptic_Segmentation_CVPR_2021_paper.pdf), [Code](https://github.com/joe-siyuan-qiao/ViP-DeepLab)
+- **[Video K-Net]** Video K-Net: A simple, strong, and unified baseline for video segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Video_K-Net_A_Simple_Strong_and_Unified_Baseline_for_Video_CVPR_2022_paper.pdf), [Code](https://github.com/lxtGH/Video-K-Net)
+- **[SiamTrack]** Learning to associate every segment for video panoptic segmentation. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Woo_Learning_To_Associate_Every_Segment_for_Video_Panoptic_Segmentation_CVPR_2021_paper.pdf), [Code]()
+- **[VPSNet]** Video panoptic segmentation. *CVPR 2020*, [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Video_Panoptic_Segmentation_CVPR_2020_paper.pdf), [Code](https://github.com/mcahny/vps)
+
 
 ## Depth Aware Video Panoptic Segmentation
+- **[PolyphonicFormer]** PolyphonicFormer: Unified query learning for depth-aware video panoptic segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870574.pdf), [Code](https://github.com/HarborYuan/PolyphonicFormer)
+- **[TubeFormer-DeepLab]** TubeFormer-DeepLab: Video mask transformer. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TubeFormer-DeepLab_Video_Mask_Transformer_CVPR_2022_paper.pdf), [Code]() 
+- **[ViP-Deeplab]** ViP-DeepLab: Learning visual perception with depth-aware video panoptic segmentation. *CVPR 2021*, [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_VIP-DeepLab_Learning_Visual_Perception_With_Depth-Aware_Video_Panoptic_Segmentation_CVPR_2021_paper.pdf), [Code](https://github.com/joe-siyuan-qiao/ViP-DeepLab)
 
 
 
 ## Panoramic Video Panoptic Segmentation
 
+- **[ViP-DeepLab+]** Waymo open dataset: Panoramic video panoptic segmentation. *ECCV 2022*, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136890052.pdf), [Code](https://github.com/waymo-research/waymo-open-dataset/tree/master)
 
 
 ## Text Referring Video Object Segmentation
-
+- **[ReferFormer]** Language as queries for referring video object segmentation. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Language_As_Queries_for_Referring_Video_Object_Segmentation_CVPR_2022_paper.pdf), [Code](https://github.com/wjn922/ReferFormer)
+- **[MTTR]** End-to-end referring video object segmentation with multimodal transformers. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Botach_End-to-End_Referring_Video_Object_Segmentation_With_Multimodal_Transformers_CVPR_2022_paper.pdf), [Code](https://github.com/mttr2021/MTTR)
+- **[YOFO]** You only infer once: Cross-modal meta-transfer for referring video object segmentation. *AAAI 2022*, [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20017), [Code]()
+- **[URVOS]** URVOS: Unified referring video object segmentation network with a large-scale benchmark. *ECCV 2020*, [Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600205.pdf), [Code](https://github.com/skynbe/Refer-Youtube-VOS)
 
 
 ## Audio Referring Video Object Segmentation
+
+- **[Wnet]** Wnet: Audio-guided video object segmentation via wavelet-based cross-modal denoising networks. *CVPR 2022*, [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pan_Wnet_Audio-Guided_Video_Object_Segmentation_via_Wavelet-Based_Cross-Modal_Denoising_Networks_CVPR_2022_paper.pdf), [Code](https://github.com/asudahkzj/Wnet)
